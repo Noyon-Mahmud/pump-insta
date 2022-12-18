@@ -1,0 +1,81 @@
+#account_part {
+    padding: 0 0 300px;
+
+    .account_head {
+
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 54px;
+            text-align: center;
+            color: #1E1E1E;
+        }
+
+        p {
+
+            left: 425px;
+            top: 6169px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #787878;
+            margin-top: 20px;
+        }
+
+    }
+
+    .colsp {
+        margin-top: 99px;
+        p {
+            position: relative;
+            a {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+                /* Primary Color */
+               
+                color: red;
+
+                &::after{
+                    position: absolute;
+                    content: "-";
+                    left: 85%;
+                    top: 0;
+                }
+
+                &.collapsed{
+                    color: #1E1E1E;
+                    &::after{
+                        content: "+";
+                    }
+                }
+            }
+            
+        }
+
+        .collapse {
+           
+              span{
+                width: 560px;
+                height: 104px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                /* or 162% */
+                
+                /* Dark 03 */
+                color: #787878;
+              }
+            
+        }
+    }
+}

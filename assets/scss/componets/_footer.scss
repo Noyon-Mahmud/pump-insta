@@ -1,0 +1,116 @@
+/* ==================  Footer Start  ================== */
+#footer_part {
+    padding: 0 0 150px;
+
+    .logo_st {
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 30px;
+            /* or 162% */
+
+            /* Dark 03 */
+            color: #787878;
+        }
+
+        .social {
+            a {
+                margin: 20px 5px 0;
+
+            }
+        }
+    }
+
+    .Policy {
+
+        h6 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+
+            /* Dark 01 */
+            color: #1E1E1E;
+
+
+        }
+
+        ul {
+            margin-top: 42px;
+
+            li {
+                left: 645px;
+                top: 7133px;
+                margin-top: 10px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #787878;
+            }
+        }
+    }
+
+    .Sign {
+        h6 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #1E1E1E;
+        }
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 30px;
+            /* or 162% */
+
+            /* Dark 03 */
+            color: #787878;
+        }
+
+        form {
+            margin-top: 20px;
+            input {
+                width: 351px;
+                height: 56px;
+                left: 1109px;
+                top: 7205px;
+
+                background: #FFFFFF;
+                border-radius: 10px;
+            }
+
+            button {
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 26px;
+                padding: 15px 15px 17px 17px;
+
+                /* Primary Color */
+                background: #E90024;
+                border-radius: 10px;
+                /* identical to box height, or 162% */
+
+                color: #FFFFFF;
+            }
+            
+        }
+    }
+}
+
+/* ==================  Footer Part End  ================== */

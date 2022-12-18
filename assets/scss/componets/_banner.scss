@@ -1,0 +1,146 @@
+/* ============================== Banner Part Start =================================== */
+
+#banner_part {
+    padding: 94px 0 150px;
+
+    .banner_text {
+        .banner_header_tex {
+            h1 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 65px;
+                line-height: 85px;
+                color: #1E1E1E;
+                margin-top: 50px;
+
+                span {
+                    color: red;
+                }
+            }
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #787878;
+                margin-top: 20px;
+
+            }
+
+            a {
+
+                width: 150px;
+                height: 56px;
+                left: 1310px;
+                top: 50px;
+                text-align: center;
+                line-height: 56px;
+                background: #E90024;
+                border-radius: 5px;
+                font-family: 'Inter';
+                font-style: normal;
+                color: #FFFFFF;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 56px;
+                margin-top: 46px;
+
+            }
+        }
+    }
+
+    .banner_img {
+        position: relative;
+
+        .one {
+            margin-left: 100px;
+        }
+
+        .two {
+            position: absolute;
+            left: 369px;
+            top: 205px;
+            background: #FFFFFF;
+            box-shadow: 0px 10.814px 36.0465px rgba(0, 0, 0, 0.04);
+            border-radius: 21.6279px;
+        }
+
+        .im2 {
+            position: absolute;
+            left: 167px;
+            top: -31px;
+            z-index: -1;
+        }
+
+        .client_info {
+            position: absolute;
+            background: #fff;
+            box-shadow: 0px 15px 50px rgba(0,0,0,0.04);
+            border-radius: 10px;
+            margin-top: -282px;
+            z-index: 999;
+            margin-left: -93px;
+
+            .client_text {
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+
+                    /* or 162% */
+
+                    /* Dark 02 */
+                    color: #4B4B4B;
+                }
+            }
+
+            .client_shipe {
+                width: 103px;
+                height: 7px;
+                left: 743px;
+                top: 669px;
+                margin-top: 20px;
+                background: rgba(232, 0, 36, 0.2);
+                border-radius: 10px;
+            }
+
+            .client_img {
+                margin-top: 15px;
+
+                .name {
+                    margin-left: 15px;
+
+                    h5 {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 26px;
+                        color: #4B4B4B;
+                    }
+
+                    h6 {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #787878;
+                    }
+                }
+
+                a {
+                    margin-left: 166px;
+                }
+            }
+        }
+
+    }
+}
+
+/* ============================== Banner Part End  =================================== */

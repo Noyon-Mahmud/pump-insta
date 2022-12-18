@@ -1,0 +1,120 @@
+#Purchase_part {
+    padding: 0 0 215px;
+
+    .Purchase_text {
+        h2 {
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 54px;
+            text-align: center;
+            color: #1E1E1E;
+        }
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #787878;
+            margin-top: 20px;
+        }
+    }
+
+    .Purchase_one {
+        margin-top: 125px;
+        text-align: -moz-center;
+
+        .discount {
+            width: 214px;
+            height: 48px;
+            left: 245px;
+            top: 4515px;
+            background: rgba(233, 0, 36, 0.1);
+            border-radius: 5px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 48px;
+            text-align: center;
+            color: #E90024;
+        }
+
+        .txt_head {
+            h5 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 25px;
+                line-height: 30px;
+                color: #1E1E1E;
+                margin-top: 50px;
+            }
+        }
+
+        ul {
+            margin-top: 30px;
+
+            li {
+                font-family: 'Inter';
+                margin-right: 50px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #787878;
+                margin-top: 15px;
+
+                i {
+                    color: #5EBD78;
+                }
+            }
+        }
+
+
+        .hover {
+
+            h5 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 45px;
+                line-height: 54px;
+                margin-top: 40px;
+                /* Dark 01 */
+                color: #1E1E1E;
+                margin-right: 110px;
+            }
+
+            a {
+                width: 180px;
+                height: 56px;
+                left: 258px;
+                top: 4966px;
+                border: 1px solid red;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 56px;
+                text-align: center;
+                /* Primary Color */
+                color: #E90024;
+                margin-top: 50px;
+
+            }
+
+            a:hover {
+                background: red;
+                color: #fff;
+                transition: all linear 0.30s;
+            }
+        }
+
+    }
+}

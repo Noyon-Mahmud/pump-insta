@@ -1,0 +1,93 @@
+#coustomer_part {
+    padding: 0 0 150px;
+
+    .coustomer_text {
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 54px;
+            text-align: center;
+            color: #1E1E1E;
+        }
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #787878;
+            margin-top: 20px;
+        }
+    }
+
+    .coustomer_one {
+        margin-top: 101px;
+
+        .coustomer_head {
+            h6 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 26px;
+                color: #4B4B4B;
+                margin: 20px 20px 0;
+            }
+
+            a {
+                font-size: 20px;
+                margin: 20px 30px 0;
+
+                i {
+                    color: #787878;
+                }
+            }
+        }
+
+        .coustomer_review {
+            margin-top: 56px;
+            .star{
+                margin-left: 50px;
+                a {
+                    color: #FFA723;
+                }
+            }
+
+            p {
+                width: 233px;
+                height: 182px;
+                margin-left: 50px;
+                margin-top: 20px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+
+                /* or 162% */
+
+                /* Dark 03 */
+                color: #787878;
+            }
+        }
+        .social_link{
+            .online{
+                margin-top: 65px;
+                a:nth-last-child(1){
+                    margin: 0 99px;
+                }
+                a{
+                    margin: 0 10px;
+                    color: #787878;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+
+}
